@@ -1,0 +1,6 @@
+[submodule "Carthage/Checkouts/botkit"]
+	path = Carthage/Checkouts/botkit
+	url = ssh://git@github.com/utahiosmac/botkit.git
+[submodule "Carthage/Checkouts/Playful"]
+	path = Carthage/Checkouts/Playful
+	url = ssh://git@github.com/derrh/Playful.git
