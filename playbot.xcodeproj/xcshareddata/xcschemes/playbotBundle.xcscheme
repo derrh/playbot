@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4916A00E1DBC6F4E00636B08"
-               BuildableName = "playbot"
-               BlueprintName = "playbot"
+               BlueprintIdentifier = "4916A03A1DBC70D100636B08"
+               BuildableName = "playbot.bundle"
+               BlueprintName = "playbotBundle"
                ReferencedContainer = "container:playbot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -70,16 +70,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4916A00E1DBC6F4E00636B08"
-            BuildableName = "playbot"
-            BlueprintName = "playbot"
+            BlueprintIdentifier = "4916A03A1DBC70D100636B08"
+            BuildableName = "playbot.bundle"
+            BlueprintName = "playbotBundle"
             ReferencedContainer = "container:playbot.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

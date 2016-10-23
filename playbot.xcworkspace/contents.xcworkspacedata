@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:playbot.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Playful/Playful.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/botkit/Submodules/SocketRocket/SocketRocket.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/botkit/Submodules/Jobs/Jobs.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/botkit/botkit.xcodeproj">
+   </FileRef>
+</Workspace>

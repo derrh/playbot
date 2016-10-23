@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Robot/Robot.h>
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSString *token = [[NSProcessInfo processInfo] environment][@"PLAYBOT_TOKEN"];
+        if (token == nil) {
+            NSLog(@"expected PLAYBOT_TOKEN=<slack token> environment variable");
+        } else {
+            [Robot playWithToken:token];
+        }
     }
     return 0;
 }
