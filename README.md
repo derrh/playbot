@@ -1,5 +1,5 @@
 #playbot
-![playbot](playground_Icon.png?raw=true =250x)
+<img src="playground_Icon.png?raw=true" alt="playbot icon" width="200" height="200" />
 playbot will take code posted in slack as a snippet or inline and make a playground for you to download!
 
 ### Getting Started
