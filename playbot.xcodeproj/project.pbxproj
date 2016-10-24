@@ -21,6 +21,13 @@
 		494CCDE61DBC79D500D8DDE4 /* Jobs.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 494CCDDD1DBC79B000D8DDE4 /* Jobs.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		494CCDE71DBC79D500D8DDE4 /* SocketRocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 494CCDDE1DBC79B000D8DDE4 /* SocketRocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		494CCDE91DBC81D400D8DDE4 /* Bundle+Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CCDE81DBC81D400D8DDE4 /* Bundle+Robot.swift */; };
+		49D846B21DBD650500677795 /* Playful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D846B11DBD650500677795 /* Playful.framework */; };
+		49D846B31DBD650500677795 /* Playful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D846B11DBD650500677795 /* Playful.framework */; };
+		49D846B41DBD651300677795 /* Playful.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49D846B11DBD650500677795 /* Playful.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		49D846B61DBD71B300677795 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D846B51DBD71B300677795 /* Alamofire.framework */; };
+		49D846B71DBD71B300677795 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D846B51DBD71B300677795 /* Alamofire.framework */; };
+		49D846B81DBD71C400677795 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49D846B51DBD71B300677795 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		49D846BA1DBD733600677795 /* NSURL+tmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D846B91DBD733600677795 /* NSURL+tmp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,10 +73,12 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				49D846B41DBD651300677795 /* Playful.framework in CopyFiles */,
 				4916A0481DBC718E00636B08 /* Robot.framework in CopyFiles */,
 				494CCDE51DBC79D500D8DDE4 /* botkit.framework in CopyFiles */,
 				494CCDE61DBC79D500D8DDE4 /* Jobs.framework in CopyFiles */,
 				494CCDE71DBC79D500D8DDE4 /* SocketRocket.framework in CopyFiles */,
+				49D846B81DBD71C400677795 /* Alamofire.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +98,9 @@
 		494CCDDD1DBC79B000D8DDE4 /* Jobs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Jobs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		494CCDDE1DBC79B000D8DDE4 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		494CCDE81DBC81D400D8DDE4 /* Bundle+Robot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Robot.swift"; sourceTree = "<group>"; };
+		49D846B11DBD650500677795 /* Playful.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Playful.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D846B51DBD71B300677795 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D846B91DBD733600677795 /* NSURL+tmp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+tmp.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D846B21DBD650500677795 /* Playful.framework in Frameworks */,
+				49D846B61DBD71B300677795 /* Alamofire.framework in Frameworks */,
 				4916A0491DBC722500636B08 /* Robot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +120,8 @@
 			files = (
 				494CCDE01DBC79B000D8DDE4 /* Jobs.framework in Frameworks */,
 				494CCDE11DBC79B000D8DDE4 /* SocketRocket.framework in Frameworks */,
+				49D846B31DBD650500677795 /* Playful.framework in Frameworks */,
+				49D846B71DBD71B300677795 /* Alamofire.framework in Frameworks */,
 				494CCDDF1DBC79B000D8DDE4 /* botkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +169,7 @@
 		4916A02E1DBC701B00636B08 /* Robot */ = {
 			isa = PBXGroup;
 			children = (
+				49D846B91DBD733600677795 /* NSURL+tmp.swift */,
 				4916A02F1DBC701B00636B08 /* Robot.h */,
 				4916A0301DBC701B00636B08 /* Info.plist */,
 				4916A0351DBC702500636B08 /* Robot.swift */,
@@ -172,6 +189,8 @@
 		4916A05E1DBC72D700636B08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49D846B51DBD71B300677795 /* Alamofire.framework */,
+				49D846B11DBD650500677795 /* Playful.framework */,
 				494CCDDC1DBC79B000D8DDE4 /* botkit.framework */,
 				494CCDDD1DBC79B000D8DDE4 /* Jobs.framework */,
 				494CCDDE1DBC79B000D8DDE4 /* SocketRocket.framework */,
@@ -326,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D846BA1DBD733600677795 /* NSURL+tmp.swift in Sources */,
 				494CCDE91DBC81D400D8DDE4 /* Bundle+Robot.swift in Sources */,
 				4916A0361DBC702500636B08 /* Robot.swift in Sources */,
 			);

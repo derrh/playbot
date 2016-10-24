@@ -1,2 +1,3 @@
+github "Alamofire/Alamofire" "4.0.1"
 github "derrh/Playful" "13cf6c19165bb4d164473181ef7cb699932b0f46"
-github "utahiosmac/botkit" "e4bc0dbf686f782e4a9896cdfb418ce9bf7f8b82"
+github "utahiosmac/botkit" "ff332dd50641efe4952459efa992975aa1750dda"

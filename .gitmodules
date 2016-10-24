@@ -4,3 +4,6 @@
 [submodule "Carthage/Checkouts/Playful"]
 	path = Carthage/Checkouts/Playful
 	url = ssh://git@github.com/derrh/Playful.git
+[submodule "Carthage/Checkouts/Alamofire"]
+	path = Carthage/Checkouts/Alamofire
+	url = ssh://git@github.com/Alamofire/Alamofire.git
